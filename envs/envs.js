@@ -1,4 +1,3 @@
-console.log(process.env.MONGODB_PASSWORD)
 const environments = {
     MONGODB_PASSWORD: process.env.MONGODB_PASSWORD,
     MONGODB_USER: process.env.MONGODB_USER,

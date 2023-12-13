@@ -6,7 +6,6 @@ const {MONGODB_DB, MONGODB_HOST, MONGODB_PASSWORD, MONGODB_USER} = environments
 
 const uri = `mongodb+srv://${MONGODB_USER}:${MONGODB_PASSWORD}@${MONGODB_HOST}/${MONGODB_DB}?retryWrites=true&w=majority`;
 
-console.log(uri)
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
     serverApi: {
